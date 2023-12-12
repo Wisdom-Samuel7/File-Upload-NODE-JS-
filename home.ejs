@@ -1,0 +1,43 @@
+<!Doctype html>
+<head>
+  
+</head>
+<style>
+*{
+  margin: 0;
+  padding: 0;
+  font-weight: bolder;
+}
+h1{
+  text-align: center;
+  color: indigo;
+}
+form{
+  width: 100vw;
+  height: 20vh;
+  background: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  padding-top: 1em;
+}
+input{
+  padding: .7em;
+  border: none;
+  border-radius: .5em;
+}
+</style>
+<html>
+  <body>
+<h1>Create Profile</h1>
+  
+  <form action="/" method="POST" enctype="multipart/form-data">
+    <input name="email" placeholder="Email" type="email">
+    <input type="file" name="image">
+    <input type="submit">
+  </form>
+  
+  
+</body>
+</html>
